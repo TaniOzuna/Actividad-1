@@ -8,13 +8,21 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+        var str = "Hello, playground"
+        
+        var v1 = "esto es swift"
+        
+        let c1 =  4
+        
+        var cadena:String = String ()
+        
+        cadena = "hola mundo" + v1
+        
+        print ("El contenido es:\(cadena)")
+        
+        print ("el valor de constante:\(c1)")
+    
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+    
 
-
-}
 
